@@ -3,7 +3,7 @@ package pl.sda.arppl4.kolekcje_java.Zadanie4Student;
 import java.util.Objects;
 
 public class Zadanie4_Student {
-    Long numerIndeksu;
+    public Long numerIndeksu;
     String imie, nazwisko;
 
     public Zadanie4_Student(long numerIndeksu, String imie, String nazwisko) {
