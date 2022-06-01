@@ -67,6 +67,7 @@ public class Dziennik {
         } else {
             Student student = mapaStudentow.get(numerIndeksu);
             student.getListaOcen().add(ocena);
+            System.out.println("Dodano ocene " + ocena);
         }
     }
 
